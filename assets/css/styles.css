@@ -1,0 +1,132 @@
+menu,
+ul,
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    padding: .3rem;
+}
+
+header {
+    background-color: #CC523F;
+}
+
+header figure {
+    width: 48px;
+    min-height: 48px;
+    padding: .3em;
+}
+
+menu {
+    display: block;
+    box-sizing: border-box;
+}
+
+a {
+    transition: background-color .1s ease;
+}
+
+menu .active {
+    background-color: #FFC0A8;
+    color: #3F74CC;
+}
+
+footer {
+    background-color: #3F74CC;
+    color: #eee;
+    padding: .3rem;
+}
+
+main {
+    min-height: 30rem;
+    margin: 1em auto;
+}
+
+textarea {
+    resize: none;
+}
+
+#brand-logo img {
+    width: 100%;
+    display: block;
+    border: 1px #3F74CC solid;
+    border-radius: 15%;
+    padding: .3em;
+    background-color: #FFC0A822;
+}
+
+.menu-item:hover,
+.menu-item {
+    display: block;
+    padding: .5em 1em;
+    text-align: left;
+    color: #eee;
+    text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item:active {
+    background-color: #3F74CC;
+    color: #FFC0A8;
+}
+
+.with-border-bottom {
+    border-bottom: #3F74CC 1px solid;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.muted-text {
+    color: #ccc !important;
+}
+
+.social-list-item {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-list-item a {
+    color: #CC523F;
+    background: #FFC0A8;
+    padding: .5em .15em;
+    border-radius: 50%;
+}
+
+.footer-bottom {
+    padding-bottom: 1em;
+}
+
+[class*="instagram"]:hover,
+[class*="instagram"]:active {
+    color: rgba(237, 73, 86, 1);
+}
+
+[class*="facebook"]:hover,
+[class*="facebook"]:active {
+    color: #1877F2;
+}
+
+[class*="twitter"]:hover,
+[class*="twitter"]:active {
+    color: rgb(29, 161, 242);
+}
+
+[class*="linkedin"]:hover,
+[class*="linkedin"]:active {
+    color: #0a66c2;
+}
+
+[class*="gitlab"]:hover,
+[class*="gitlab"]:active {
+    color: #fd7e14;
+}
+
+[class*="github"]:hover,
+[class*="github"]:active {
+    color: #0d1117;
+}
